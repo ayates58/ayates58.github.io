@@ -1,1 +1,135 @@
-
+body
+{
+ /* The background image is from this link http://nhlwallpapers10.net/wp-content/uploads/images/8e/chicago-blackhawks.jpg */
+    background-image: url("../images/hawks.jpg"); 
+    background-repeat:no-repeat; 
+    background-size:cover;
+    background-color:#040404;
+    height: 100%;
+    width:100%;
+    max-width:100%;
+    font-size: 103%;
+    padding: 1em;
+    color:#CB0729;
+    font-weight: bold;
+    position: relative;
+ }
+ #title
+{
+    font-variant:small-caps;
+    font-weight:bold;
+    color:black;
+    text-align: center;
+position:relative;
+}
+ #header
+{
+    width:180px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    padding:0px;
+    background-color:#CB0729;
+    border-right:2px dotted #10BF42;
+    overflow: scroll;
+    text-align:center;
+    font: arial;
+}
+ .btn
+{
+    background: black;
+    color:#CB0729;
+    display:inline-block;
+    border-radius:8px;
+    box-shadow: inset 0 1px 0 #CB0729;
+    line-height:1.2em;
+    padding: .75em 3em;
+    text-decoration:none;
+}
+ #content
+ {
+    margin-left:160px;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    position:relative;
+    text-align: left; 
+    width: 100%;
+    height: 100%;
+}
+ #vid
+{
+    text-align: center;
+    padding:10px;
+}
+ #middle
+{   
+    height: 100%;
+    width:85%;
+    margin: 10px;
+    position:relative;
+    text-align: center;
+ }
+ #validator
+{
+    text-align: center;
+}
+ .head
+{
+    text-align: center;
+    font-variant:small-caps;
+ font-family: Signika, sans-serif;
+font-size:28px;
+}
+ h2
+{
+    font-variant: small-caps;
+ font-family: Signika, sans-serif;
+}
+ h3
+{
+    font-variant: small-caps;
+}
+ p
+{
+    font-family:"arial" , "serief";
+}
+ a
+{
+    font-family: "arial", "serif";
+}
+ a:hover
+{
+    color:#EE1B1B;
+    font-size:115%;
+}
+a:visited
+{
+    color: white;
+    font-weight:bold;
+}
+ .h
+{
+    text-align:left;
+}
+ ol
+{
+   font-family:"arial","serief"; 
+    font-weight:bold;
+}
+ ol li
+{
+    text-align: left;
+font-weight:bold;
+font-family:"arial","serief";
+}
+ .l
+{
+float:left;
+ }
+ figurecaption
+{
+    font-size: 40px;
+ }
