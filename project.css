@@ -1,9 +1,6 @@
-
-
 body
 {
-
-/* The background image is from this link http://nhlwallpapers10.net/wp-content/uploads/images/8e/chicago-blackhawks.jpg */
+ /* The background image is from this link http://nhlwallpapers10.net/wp-content/uploads/images/8e/chicago-blackhawks.jpg */
     background-image: url("../images/hawks.jpg"); 
     background-repeat:no-repeat; 
     background-size:cover;
@@ -16,11 +13,8 @@ body
     color:#CB0729;
     font-weight: bold;
     position: relative;
-
-}
-
-
-#title
+ }
+ #title
 {
     font-variant:small-caps;
     font-weight:bold;
@@ -28,9 +22,7 @@ body
     text-align: center;
 position:relative;
 }
-
-
-#header
+ #header
 {
     width:180px;
     position:fixed;
@@ -44,8 +36,7 @@ position:relative;
     text-align:center;
     font: arial;
 }
-
-.btn
+ .btn
 {
     background: black;
     color:#CB0729;
@@ -56,12 +47,8 @@ position:relative;
     padding: .75em 3em;
     text-decoration:none;
 }
-
-
-
-#content
-
-{
+ #content
+ {
     margin-left:160px;
     left:0px;
     top:0px;
@@ -72,64 +59,48 @@ position:relative;
     width: 100%;
     height: 100%;
 }
-
-#vid
+ #vid
 {
     text-align: center;
     padding:10px;
 }
-
-#middle
+ #middle
 {   
     height: 100%;
     width:85%;
     margin: 10px;
     position:relative;
     text-align: center;
-
-}
-
-
-#validator
+ }
+ #validator
 {
     text-align: center;
 }
-
-
-.head
+ .head
 {
     text-align: center;
     font-variant:small-caps;
  font-family: Signika, sans-serif;
 font-size:28px;
 }
-
-
-h2
+ h2
 {
     font-variant: small-caps;
  font-family: Signika, sans-serif;
 }
-
-h3
+ h3
 {
     font-variant: small-caps;
 }
-
-
-
-p
+ p
 {
     font-family:"arial" , "serief";
 }
-
-
-a
+ a
 {
     font-family: "arial", "serif";
 }
-
-a:hover
+ a:hover
 {
     color:#EE1B1B;
     font-size:115%;
@@ -139,35 +110,26 @@ a:visited
     color: white;
     font-weight:bold;
 }
-
-.h
+ .h
 {
     text-align:left;
 }
-
-ol
+ ol
 {
    font-family:"arial","serief"; 
     font-weight:bold;
 }
-
-
-ol li
+ ol li
 {
     text-align: left;
 font-weight:bold;
 font-family:"arial","serief";
 }
-
-
-.l
+ .l
 {
 float:left;
-
-}
-
-figurecaption
+ }
+ figurecaption
 {
     font-size: 40px;
-
-}
+ }
